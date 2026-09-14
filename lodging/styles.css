@@ -55,8 +55,44 @@ header {
 /* MAIN STYLING */
 main {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #f4d06f;
 }
 
+section {
+    height: 100vh;
+}
+
+.lodging-intro {
+    text-align: center;
+}
+
+.lodging-intro h1 {
+    font-weight: bold;
+    font-size: 2.8rem;
+}
+
+.main-content {
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    /* height: inherit; */
+    text-align: center;
+    padding: 32px;
+}
+
+.main-content img {
+    margin-bottom: 8px;
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+
+.main-content p {
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
 
 
 
