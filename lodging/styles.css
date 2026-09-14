@@ -9,6 +9,8 @@
 header {
     position: sticky;
     top: 0;
+    background-color: #eec170;
+    padding-bottom: 16px;
 }
 
 .nav-menu {

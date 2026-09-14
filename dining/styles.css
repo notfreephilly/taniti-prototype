@@ -9,6 +9,9 @@
 header {
     position: sticky;
     top: 0;
+    background-color: #eec170;
+    padding-bottom: 16px;
+
 }
 
 .nav-menu {
@@ -18,8 +21,9 @@ header {
     align-items: center;
     background-color: #eec170;
     padding: 12px;
-    /* border: 2px solid red; */
+    /* border-bottom: 2px solid lightyellow; */
 }
+
 
 .nav-menu .list-container {
     width: 80%;
@@ -50,6 +54,8 @@ header {
     text-decoration: none;
     color: black;
 }
+
+
 
 
 /* MAIN STYLING */
