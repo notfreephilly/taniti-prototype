@@ -54,7 +54,11 @@ header {
 
 /* MAIN STYLING */
 
-
+main {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #f4d06f;
+    height: 100vh;
+}
 
 
 

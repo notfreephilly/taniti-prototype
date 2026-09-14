@@ -53,8 +53,59 @@ header {
 
 
 /* MAIN STYLING */
+main {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #f4d06f;
+    height: 80vh;
+    /* display: grid;
+    grid-template-rows: 1fr 1fr; */
+}
 
+.transp-intro {
+    text-align: center;
+}
 
+.transp-intro h1 {
+    font-weight: bold;
+    font-size: 2.8;
+    padding: 8px;
+}
+
+.transp-intro p {
+    font-size: 1.5rem;
+}
+
+.transp-sub {
+    /* border: 2px solid black; */
+    padding-top: 60px;
+    height: 30vh;
+}
+
+.transp-sub h3 {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.info-container {
+    /* border: 2px solid green; */
+    height: inherit;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.info-container .sub-info {
+    /* border: 2px solid red; */
+    background-color: #eec170;
+    width: 35%;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, .5);
+}
+
+.sub-info li {
+    font-size: 1.2rem;
+}
 
 
 
