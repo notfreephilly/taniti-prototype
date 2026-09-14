@@ -52,7 +52,34 @@ header {
 }
 
 
+/* MAIN STYLING */
+
+
 
 
 
 /* FOOTER STYLING */
+
+footer {
+    height: 12vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #eec170;
+    padding: 12px;
+
+    /* border: 2px solid black; */
+}
+
+footer .list-container {
+    width: 80%;
+    height: 10vh;
+    display: flex;
+    /* flex: 1; */
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    list-style: none;
+    padding: 8px;
+    /* border: 2px solid red; */
+}
